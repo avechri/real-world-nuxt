@@ -9,7 +9,7 @@ export default {
   // how vue-meta works
   head() {
     return {
-      title: 'Create an Event — Real World Events',
+      title: 'Create an Event',
       meta: [
         {
           hid: 'description',
