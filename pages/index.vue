@@ -6,14 +6,12 @@
 
 <script>
 export default {
-  asyncData(context) {
-    return context.$axios
-      .get('http://localhost:3000/events')
-      .then((response) => {
-        return {
-          events: response.data, // merges with component data
-        }
-      })
+  asyncData($axios) {
+    return $axios.get('http://localhost:3000/events').then((response) => {
+      return {
+        events: response.data, // merges with component data
+      }
+    })
   },
   // how vue-meta works
   head() {
