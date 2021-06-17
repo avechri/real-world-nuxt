@@ -1,20 +1,15 @@
-# real-world-nuxt
+# Real-World-Nuxt
 
-## Build Setup
+## О проекте
 
-```bash
-# install dependencies
-$ npm install
+Этот проект я делала по ходу курса Vue Mastery: Scaling Vue with Nuxt.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+Я узнала: 
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- о проблемах Vue, которые решает Nuxt 
+- структуру приложений Nuxt'а
+- Разобралась в том, что такое Universal mode и почему он нужен
+- SEO страниц с Vue-meta
+- связку Universal app + vue-meta
+- о динамической маршрутизации
+- API calls с использованием axios (async/await/vuex)
